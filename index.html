@@ -1,503 +1,456 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>PIZZASTA — Every Bite Melts Right | Bahria Town, Rawalpindi</title>
-<meta name="description" content="Fresh pizzas, delicious pasta, crispy fries, and refreshing drinks in Bahria Town, Rawalpindi. Order for takeaway or call your nearest PIZZASTA branch.">
-<link rel="icon" type="image/jpeg" href="assets/logo/pizzasta-logo.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<meta content="Fresh pizzas, delicious pasta, crispy fries, and refreshing drinks in Bahria Town, Rawalpindi. Order for takeaway or call your nearest PIZZASTA branch." name="description"/>
+<link href="assets/logo/pizzasta-logo.jpg" rel="icon" type="image/jpeg"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-
 <a class="skip-link" href="#main">Skip to content</a>
-
 <!-- ============ NAV ============ -->
 <header class="site-header" id="siteHeader">
-  <div class="header-inner">
-    <a href="#home" class="brand">
-      <img src="assets/logo/pizzasta-logo.jpg" alt="PIZZASTA logo" class="brand-mark">
-      <span class="brand-name">PIZZASTA</span>
-    </a>
-
-    <nav class="main-nav" id="mainNav" aria-label="Primary">
-      <a href="#home">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#about">About</a>
-      <a href="#locations">Locations</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <a class="btn btn-ghost header-call" href="tel:+923075415777">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.2c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+<div class="header-inner">
+<a class="brand" href="#home">
+<img alt="PIZZASTA logo" class="brand-mark" height="500" src="assets/logo/pizzasta-logo.jpg" width="500"/>
+<span class="brand-name">PIZZASTA</span>
+</a>
+<nav aria-label="Primary" class="main-nav" id="mainNav">
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#about">About</a>
+<a href="#locations">Locations</a>
+<a href="#contact">Contact</a>
+</nav>
+<a class="btn btn-ghost header-call" href="tel:+923075415777">
+<svg aria-hidden="true" fill="none" height="16" viewbox="0 0 24 24" width="16"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.2c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-linejoin="round" stroke-width="1.6"></path></svg>
       Call Now
     </a>
-
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
+<button aria-controls="mainNav" aria-expanded="false" aria-label="Open menu" class="nav-toggle" id="navToggle">
+<span></span><span></span><span></span>
+</button>
+</div>
 </header>
-
 <main id="main">
-
-  <!-- ============ HERO ============ -->
-  <section class="hero" id="home">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">Bahria Town, Rawalpindi</p>
-        <h1 class="hero-title">PIZZASTA</h1>
-        <p class="hero-tagline">Every Bite Melts Right 🍕</p>
-        <p class="hero-desc">Fresh pizzas, delicious pasta, crispy fries, and refreshing drinks served every day. Visit us, order for takeaway, or call your nearest branch.</p>
-        <div class="hero-actions">
-          <a href="#menu" class="btn btn-primary">View Menu</a>
-          <a href="tel:+923075415777" class="btn btn-outline">Call Now</a>
-        </div>
-        <p class="hero-hours">Open every day &nbsp;·&nbsp; 3:00 PM – 3:00 AM</p>
-      </div>
-      <div class="hero-visual" aria-hidden="true">
-        <img src="assets/food/collage_stack.jpg" alt="" class="hero-collage">
-      </div>
-    </div>
-    <div class="drip-divider drip-gold" aria-hidden="true">
-      <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,0 L1440,0 L1440,40 C1380,40 1370,80 1320,80 C1270,80 1260,45 1210,45 C1160,45 1150,85 1100,85 C1050,85 1040,50 990,50 C940,50 930,90 880,90 C830,90 820,42 770,42 C720,42 710,78 660,78 C610,78 600,48 550,48 C500,48 490,82 440,82 C390,82 380,44 330,44 C280,44 270,86 220,86 C170,86 160,50 110,50 C70,50 50,70 0,55 Z"/></svg>
-    </div>
-  </section>
-
-  <!-- ============ FEATURED MENU ============ -->
-  <section class="section featured" id="favourites">
-    <div class="section-head">
-      <p class="eyebrow">Fan favourites</p>
-      <h2 class="section-title">Customer Favourites</h2>
-      <p class="section-desc">A selection of some of our most popular items.</p>
-    </div>
-
-    <div class="featured-scroller" role="list">
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/malai_boti.jpg" alt="Malai Boti pizza topped with grilled chicken, onion and coriander" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Malai Boti</h3>
-          <p>Creamy grilled chicken, onion, coriander &amp; mozzarella.</p>
-          <span class="price-tag">From Rs 1,100</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/behari_kabab.jpg" alt="Behari Kabab pizza loaded with spiced chicken and onions" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Behari Kabab</h3>
-          <p>Smoky Behari-style chicken, red onion &amp; melted cheese.</p>
-          <span class="price-tag">From Rs 1,100</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/chicken_tandoori.jpg" alt="Chicken Tandoori pizza with olives and peppers" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Chicken Tandoori</h3>
-          <p>Fiery tandoori chicken, olives &amp; peppers, cheesy bliss.</p>
-          <span class="price-tag">From Rs 1,100</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/chicken_fajita.jpg" alt="Chicken Fajita pizza with tomato, basil and pepperoni" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Chicken Fajita</h3>
-          <p>Zesty fajita chicken with fresh basil &amp; tomato.</p>
-          <span class="price-tag">From Rs 500</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/fajita_sicilian.jpg" alt="Fajita Sicilian pizza loaded with vegetables, olives and mushrooms" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Fajita Sicilian</h3>
-          <p>Loaded with mushrooms, olives, peppers &amp; herbs.</p>
-          <span class="price-tag">From Rs 500</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/chicken_tikka_bbq.jpg" alt="Chicken Tikka BBQ pizza" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Chicken Tikka BBQ</h3>
-          <p>Smoky. Spicy. Irresistible chicken tikka &amp; BBQ sauce.</p>
-          <span class="price-tag">From Rs 500</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/chicken_supreme.jpg" alt="Chicken Supreme pizza with mushrooms and olives" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Chicken Supreme</h3>
-          <p>Oven-fresh, loaded with melty cheese &amp; bold flavour.</p>
-          <span class="price-tag">From Rs 500</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/cheese_lover.jpg" alt="Cheese Lover pizza with extra cheese" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Cheese Lover</h3>
-          <p>Say yes to extra cheese, baked to crispy perfection.</p>
-          <span class="price-tag">From Rs 500</span>
-        </div>
-      </article>
-
-      <article class="feature-card" role="listitem">
-        <img src="assets/food/peri_peri.jpg" alt="Peri Peri chicken pizza" loading="lazy">
-        <div class="feature-card-body">
-          <h3>Peri Peri</h3>
-          <p>Bold peri peri chicken, onion &amp; mozzarella.</p>
-          <span class="price-tag">From Rs 1,700</span>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <div class="drip-divider drip-red" aria-hidden="true">
-    <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,0 L1440,0 L1440,40 C1380,40 1370,80 1320,80 C1270,80 1260,45 1210,45 C1160,45 1150,85 1100,85 C1050,85 1040,50 990,50 C940,50 930,90 880,90 C830,90 820,42 770,42 C720,42 710,78 660,78 C610,78 600,48 550,48 C500,48 490,82 440,82 C390,82 380,44 330,44 C280,44 270,86 220,86 C170,86 160,50 110,50 C70,50 50,70 0,55 Z"/></svg>
-  </div>
-
-  <!-- ============ FULL MENU ============ -->
-  <section class="section menu-section" id="menu">
-    <div class="section-head">
-      <p class="eyebrow">Freshly baked</p>
-      <h2 class="section-title">Our Menu</h2>
-      <p class="section-desc">Browse our complete menu.</p>
-    </div>
-
-    <nav class="menu-chips" aria-label="Menu categories">
-      <a href="#cat-crust">Crust</a>
-      <a href="#cat-special">Special</a>
-      <a href="#cat-classic">Classic</a>
-      <a href="#cat-premium">Premium</a>
-      <a href="#cat-addons">Add-ons</a>
-      <a href="#cat-pasta">Cheesy Pasta</a>
-      <a href="#cat-fries">Cheesy Fries</a>
-      <a href="#cat-rolls">Cheesy Rolls</a>
-      <a href="#cat-drinks">Drinks &amp; Water</a>
-    </nav>
-
-    <div class="menu-groups">
-
-      <!-- CRUST -->
-      <div class="menu-cat" id="cat-crust">
-        <h3 class="menu-cat-title">Crust</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead>
-              <tr><th scope="col">Type</th><th scope="col">Medium 10&Prime;</th><th scope="col">Large 13&Prime;</th><th scope="col">XL 16&Prime;</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Crown Crust</td><td>1200</td><td>1600</td><td>2100</td></tr>
-              <tr><td>Kabab Stuff</td><td>1200</td><td>1600</td><td>2100</td></tr>
-              <tr><td>Cheese Stuff</td><td>1200</td><td>1600</td><td>2100</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- SPECIAL -->
-      <div class="menu-cat" id="cat-special">
-        <h3 class="menu-cat-title">Special</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead>
-              <tr><th scope="col">Pizza</th><th scope="col">Medium 10&Prime;</th><th scope="col">Large 13&Prime;</th><th scope="col">XL 16&Prime;</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Pizzasta Special</td><td>1100</td><td>1450</td><td>1950</td></tr>
-              <tr><td>Behari Kabab</td><td>1100</td><td>1450</td><td>1950</td></tr>
-              <tr><td>Chicken Tandoori</td><td>1100</td><td>1450</td><td>1950</td></tr>
-              <tr><td>Malai Boti</td><td>1100</td><td>1450</td><td>1950</td></tr>
-              <tr><td>Chicken Extreme</td><td>1100</td><td>1450</td><td>1950</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- CLASSIC -->
-      <div class="menu-cat" id="cat-classic">
-        <h3 class="menu-cat-title">Classic</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead>
-              <tr><th scope="col">Pizza</th><th scope="col">Small 7&Prime;</th><th scope="col">Medium 10&Prime;</th><th scope="col">Large 13&Prime;</th><th scope="col">XL 16&Prime;</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Chicken Tikka BBQ</td><td>500</td><td>1000</td><td>1350</td><td>1750</td></tr>
-              <tr><td>Fajita Sicilian</td><td>500</td><td>1000</td><td>1350</td><td>1750</td></tr>
-              <tr><td>Chicken Fajita</td><td>500</td><td>1000</td><td>1350</td><td>1750</td></tr>
-              <tr><td>Vegetarians</td><td>500</td><td>1000</td><td>1350</td><td>1750</td></tr>
-              <tr><td>Chicken Supreme</td><td>500</td><td>1000</td><td>1350</td><td>1750</td></tr>
-              <tr><td>Cheese Lover</td><td>500</td><td>1000</td><td>1350</td><td>1750</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- PREMIUM -->
-      <div class="menu-cat" id="cat-premium">
-        <h3 class="menu-cat-title">Premium</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead>
-              <tr><th scope="col">Pizza</th><th scope="col">Large 13&Prime;</th><th scope="col">XL 16&Prime;</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Chicken Cheese Stuffer</td><td>1700</td><td>2250</td></tr>
-              <tr><td>Kabab Twister</td><td>1700</td><td>2250</td></tr>
-              <tr><td>Peri Peri</td><td>1700</td><td>2250</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- ADD ONS -->
-      <div class="menu-cat" id="cat-addons">
-        <h3 class="menu-cat-title">Add-ons</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead>
-            <tbody>
-              <tr><td>Dip Sauce</td><td>100</td></tr>
-              <tr><td>Special Sauce</td><td>130</td></tr>
-              <tr><td>Topping (Medium)</td><td>150</td></tr>
-              <tr><td>Topping (Large)</td><td>250</td></tr>
-              <tr><td>Topping (XL)</td><td>350</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- CHEESY PASTA -->
-      <div class="menu-cat" id="cat-pasta">
-        <h3 class="menu-cat-title">Cheesy Pasta</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead><tr><th scope="col">Item</th><th scope="col">Half</th><th scope="col">Full</th></tr></thead>
-            <tbody>
-              <tr><td>Pizzasta Special</td><td>500</td><td>950</td></tr>
-              <tr><td>Flaming Pasta</td><td>400</td><td>750</td></tr>
-              <tr><td>Kababish Pasta</td><td>450</td><td>850</td></tr>
-              <tr><td>Creamy Pasta</td><td>400</td><td>750</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- CHEESY FRIES -->
-      <div class="menu-cat" id="cat-fries">
-        <h3 class="menu-cat-title">Cheesy Fries</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead><tr><th scope="col">Item</th><th scope="col">Half</th><th scope="col">Full</th></tr></thead>
-            <tbody>
-              <tr><td>Plain Fries</td><td>200</td><td>400</td></tr>
-              <tr><td>Loaded Fries</td><td>300</td><td>600</td></tr>
-              <tr><td>Malai Boti Fries</td><td>400</td><td>800</td></tr>
-              <tr><td>Pizza Fries</td><td>&mdash;</td><td>850</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- CHEESY ROLLS -->
-      <div class="menu-cat" id="cat-rolls">
-        <h3 class="menu-cat-title">Cheesy Rolls</h3>
-        <div class="table-scroll">
-          <table class="menu-table">
-            <thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead>
-            <tbody>
-              <tr><td>Spin Roll</td><td>520</td></tr>
-              <tr><td>Behari Roll</td><td>580</td></tr>
-              <tr><td>Pizzasta Roll</td><td>630</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- DRINKS -->
-      <div class="menu-cat" id="cat-drinks">
-        <h3 class="menu-cat-title">Soft Drinks &amp; Mineral Water</h3>
-        <div class="drinks-grid">
-          <div class="table-scroll">
-            <table class="menu-table">
-              <thead><tr><th scope="col">Soft Drinks</th><th scope="col">Price</th></tr></thead>
-              <tbody>
-                <tr><td>Regular</td><td class="tbc">Contact branch for pricing</td></tr>
-                <tr><td>1 Litre</td><td class="tbc">Contact branch for pricing</td></tr>
-                <tr><td>1.5 Litre</td><td class="tbc">Contact branch for pricing</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="table-scroll">
-            <table class="menu-table">
-              <thead><tr><th scope="col">Mineral Water</th><th scope="col">Price</th></tr></thead>
-              <tbody>
-                <tr><td>Large</td><td class="tbc">Contact branch for pricing</td></tr>
-                <tr><td>Regular</td><td class="tbc">Contact branch for pricing</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <div class="drip-divider drip-gold" aria-hidden="true">
-    <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,0 L1440,0 L1440,40 C1380,40 1370,80 1320,80 C1270,80 1260,45 1210,45 C1160,45 1150,85 1100,85 C1050,85 1040,50 990,50 C940,50 930,90 880,90 C830,90 820,42 770,42 C720,42 710,78 660,78 C610,78 600,48 550,48 C500,48 490,82 440,82 C390,82 380,44 330,44 C280,44 270,86 220,86 C170,86 160,50 110,50 C70,50 50,70 0,55 Z"/></svg>
-  </div>
-
-  <!-- ============ ABOUT ============ -->
-  <section class="section about" id="about">
-    <div class="about-inner">
-      <div class="about-visual">
-        <img src="assets/menu/pizzasta-menu-board.jpg" alt="PIZZASTA menu board showing all pizza flavours and prices" loading="lazy">
-      </div>
-      <div class="about-copy">
-        <p class="eyebrow">About Us</p>
-        <h2 class="section-title">About PIZZASTA</h2>
-        <p>PIZZASTA is a local pizza restaurant serving delicious pizzas, pasta, fries, and drinks in Bahria Town, Rawalpindi.</p>
-        <p>We focus on quality food, friendly service, and a welcoming experience for families, students, and late-night customers.</p>
-        <div class="about-tags">
-          <span>Freshly Baked</span>
-          <span>Family Friendly</span>
-          <span>Open Till 3 AM</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ LOCATIONS ============ -->
-  <section class="section locations" id="locations">
-    <div class="section-head">
-      <p class="eyebrow">Two branches, one taste</p>
-      <h2 class="section-title">Visit Us</h2>
-      <p class="section-desc">We currently serve customers from two convenient locations in Bahria Town, Rawalpindi.</p>
-    </div>
-
-    <div class="location-grid">
-      <article class="location-card">
-        <h3>Phase 8</h3>
-        <address>
-          Plaza 113, Hub Commercial<br>
-          Near Rainbow Mart<br>
-          Bahria Town Phase 8<br>
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+<div class="hero-inner">
+<div class="hero-copy">
+<p class="eyebrow">Bahria Town, Rawalpindi</p>
+<h1 class="hero-title">PIZZASTA</h1>
+<p class="hero-tagline">Every Bite Melts Right 🍕</p>
+<p class="hero-desc">Fresh pizzas, delicious pasta, crispy fries, and refreshing drinks served every day. Visit us, order for takeaway, or call your nearest branch.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#menu">View Menu</a>
+<a class="btn btn-outline" href="tel:+923075415777">Call Now</a>
+</div>
+<p class="hero-hours">Open every day  ·  3:00 PM – 3:00 AM</p>
+</div>
+<div aria-hidden="true" class="hero-visual">
+<img alt="" class="hero-collage" height="1536" src="assets/food/collage_stack.jpg" width="516"/>
+</div>
+</div>
+<div aria-hidden="true" class="drip-divider drip-gold">
+<svg preserveaspectratio="none" viewbox="0 0 1440 90"><path d="M0,0 L1440,0 L1440,40 C1380,40 1370,80 1320,80 C1270,80 1260,45 1210,45 C1160,45 1150,85 1100,85 C1050,85 1040,50 990,50 C940,50 930,90 880,90 C830,90 820,42 770,42 C720,42 710,78 660,78 C610,78 600,48 550,48 C500,48 490,82 440,82 C390,82 380,44 330,44 C280,44 270,86 220,86 C170,86 160,50 110,50 C70,50 50,70 0,55 Z"></path></svg>
+</div>
+</section>
+<!-- ============ FEATURED MENU ============ -->
+<section class="section featured" id="favourites">
+<div class="section-head">
+<p class="eyebrow">Fan favourites</p>
+<h2 class="section-title">Customer Favourites</h2>
+<p class="section-desc">A selection of some of our most popular items.</p>
+</div>
+<div class="featured-scroller" role="list">
+<article class="feature-card" role="listitem">
+<img alt="Malai Boti pizza topped with grilled chicken, onion and coriander" height="328" loading="lazy" src="assets/food/malai_boti.jpg" width="900"/>
+<div class="feature-card-body">
+<h3>Malai Boti</h3>
+<p>Creamy grilled chicken, onion, coriander &amp; mozzarella.</p>
+<span class="price-tag">From Rs. 1,100</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Behari Kabab pizza loaded with spiced chicken and onions" height="550" loading="lazy" src="assets/food/behari_kabab.jpg" width="900"/>
+<div class="feature-card-body">
+<h3>Behari Kabab</h3>
+<p>Smoky Behari-style chicken, red onion &amp; melted cheese.</p>
+<span class="price-tag">From Rs. 1,100</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Chicken Tandoori pizza with olives and peppers" height="514" loading="lazy" src="assets/food/chicken_tandoori.jpg" width="900"/>
+<div class="feature-card-body">
+<h3>Chicken Tandoori</h3>
+<p>Fiery tandoori chicken, olives &amp; peppers, cheesy bliss.</p>
+<span class="price-tag">From Rs. 1,100</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Chicken Fajita pizza with tomato, basil and pepperoni" height="867" loading="lazy" src="assets/food/chicken_fajita.jpg" width="900"/>
+<div class="feature-card-body">
+<h3>Chicken Fajita</h3>
+<p>Zesty fajita chicken with fresh basil &amp; tomato.</p>
+<span class="price-tag">From Rs. 500</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Fajita Sicilian pizza loaded with vegetables, olives and mushrooms" height="493" loading="lazy" src="assets/food/fajita_sicilian.jpg" width="900"/>
+<div class="feature-card-body">
+<h3>Fajita Sicilian</h3>
+<p>Loaded with mushrooms, olives, peppers &amp; herbs.</p>
+<span class="price-tag">From Rs. 500</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Chicken Tikka BBQ pizza" height="270" loading="lazy" src="assets/food/chicken_tikka_bbq.jpg" width="350"/>
+<div class="feature-card-body">
+<h3>Chicken Tikka BBQ</h3>
+<p>Smoky. Spicy. Irresistible chicken tikka &amp; BBQ sauce.</p>
+<span class="price-tag">From Rs. 500</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Chicken Supreme pizza with mushrooms and olives" height="270" loading="lazy" src="assets/food/chicken_supreme.jpg" width="360"/>
+<div class="feature-card-body">
+<h3>Chicken Supreme</h3>
+<p>Oven-fresh, loaded with melty cheese &amp; bold flavour.</p>
+<span class="price-tag">From Rs. 500</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Cheese Lover pizza with extra cheese" height="140" loading="lazy" src="assets/food/cheese_lover.jpg" width="388"/>
+<div class="feature-card-body">
+<h3>Cheese Lover</h3>
+<p>Say yes to extra cheese, baked to crispy perfection.</p>
+<span class="price-tag">From Rs. 500</span>
+</div>
+</article>
+<article class="feature-card" role="listitem">
+<img alt="Peri Peri chicken pizza" height="300" loading="lazy" src="assets/food/peri_peri.jpg" width="370"/>
+<div class="feature-card-body">
+<h3>Peri Peri</h3>
+<p>Bold peri peri chicken, onion &amp; mozzarella.</p>
+<span class="price-tag">From Rs. 1,700</span>
+</div>
+</article>
+</div>
+</section>
+<div aria-hidden="true" class="drip-divider drip-red">
+<svg preserveaspectratio="none" viewbox="0 0 1440 90"><path d="M0,0 L1440,0 L1440,40 C1380,40 1370,80 1320,80 C1270,80 1260,45 1210,45 C1160,45 1150,85 1100,85 C1050,85 1040,50 990,50 C940,50 930,90 880,90 C830,90 820,42 770,42 C720,42 710,78 660,78 C610,78 600,48 550,48 C500,48 490,82 440,82 C390,82 380,44 330,44 C280,44 270,86 220,86 C170,86 160,50 110,50 C70,50 50,70 0,55 Z"></path></svg>
+</div>
+<!-- ============ FULL MENU ============ -->
+<section class="section menu-section" id="menu">
+<div class="section-head">
+<p class="eyebrow">Freshly baked</p>
+<h2 class="section-title">Our Menu</h2>
+<p class="section-desc">Browse our complete menu.</p>
+</div>
+<nav aria-label="Menu categories" class="menu-chips">
+<a href="#cat-crust">Crust</a>
+<a href="#cat-special">Special</a>
+<a href="#cat-classic">Classic</a>
+<a href="#cat-premium">Premium</a>
+<a href="#cat-addons">Add-ons</a>
+<a href="#cat-pasta">Cheesy Pasta</a>
+<a href="#cat-fries">Cheesy Fries</a>
+<a href="#cat-rolls">Cheesy Rolls</a>
+<a href="#cat-drinks">Drinks &amp; Water</a>
+</nav>
+<div class="menu-groups">
+<!-- CRUST -->
+<div class="menu-cat" id="cat-crust">
+<h3 class="menu-cat-title">Crust</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead>
+<tr><th scope="col">Type</th><th scope="col">Medium 10″</th><th scope="col">Large 13″</th><th scope="col">XL 16″</th></tr>
+</thead>
+<tbody>
+<tr><td>Crown Crust</td><td>Rs. 1,200</td><td>Rs. 1,600</td><td>Rs. 2,100</td></tr>
+<tr><td>Kabab Stuff</td><td>Rs. 1,200</td><td>Rs. 1,600</td><td>Rs. 2,100</td></tr>
+<tr><td>Cheese Stuff</td><td>Rs. 1,200</td><td>Rs. 1,600</td><td>Rs. 2,100</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- SPECIAL -->
+<div class="menu-cat" id="cat-special">
+<h3 class="menu-cat-title">Special</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead>
+<tr><th scope="col">Pizza</th><th scope="col">Medium 10″</th><th scope="col">Large 13″</th><th scope="col">XL 16″</th></tr>
+</thead>
+<tbody>
+<tr><td>Pizzasta Special</td><td>Rs. 1,100</td><td>Rs. 1,450</td><td>Rs. 1,950</td></tr>
+<tr><td>Behari Kabab</td><td>Rs. 1,100</td><td>Rs. 1,450</td><td>Rs. 1,950</td></tr>
+<tr><td>Chicken Tandoori</td><td>Rs. 1,100</td><td>Rs. 1,450</td><td>Rs. 1,950</td></tr>
+<tr><td>Malai Boti</td><td>Rs. 1,100</td><td>Rs. 1,450</td><td>Rs. 1,950</td></tr>
+<tr><td>Chicken Extreme</td><td>Rs. 1,100</td><td>Rs. 1,450</td><td>Rs. 1,950</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- CLASSIC -->
+<div class="menu-cat" id="cat-classic">
+<h3 class="menu-cat-title">Classic</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead>
+<tr><th scope="col">Pizza</th><th scope="col">Small 7″</th><th scope="col">Medium 10″</th><th scope="col">Large 13″</th><th scope="col">XL 16″</th></tr>
+</thead>
+<tbody>
+<tr><td>Chicken Tikka BBQ</td><td>Rs. 500</td><td>Rs. 1,000</td><td>Rs. 1,350</td><td>Rs. 1,750</td></tr>
+<tr><td>Fajita Sicilian</td><td>Rs. 500</td><td>Rs. 1,000</td><td>Rs. 1,350</td><td>Rs. 1,750</td></tr>
+<tr><td>Chicken Fajita</td><td>Rs. 500</td><td>Rs. 1,000</td><td>Rs. 1,350</td><td>Rs. 1,750</td></tr>
+<tr><td>Vegetarians</td><td>Rs. 500</td><td>Rs. 1,000</td><td>Rs. 1,350</td><td>Rs. 1,750</td></tr>
+<tr><td>Chicken Supreme</td><td>Rs. 500</td><td>Rs. 1,000</td><td>Rs. 1,350</td><td>Rs. 1,750</td></tr>
+<tr><td>Cheese Lover</td><td>Rs. 500</td><td>Rs. 1,000</td><td>Rs. 1,350</td><td>Rs. 1,750</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- PREMIUM -->
+<div class="menu-cat" id="cat-premium">
+<h3 class="menu-cat-title">Premium</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead>
+<tr><th scope="col">Pizza</th><th scope="col">Large 13″</th><th scope="col">XL 16″</th></tr>
+</thead>
+<tbody>
+<tr><td>Chicken Cheese Stuffer</td><td>Rs. 1,700</td><td>Rs. 2,250</td></tr>
+<tr><td>Kabab Twister</td><td>Rs. 1,700</td><td>Rs. 2,250</td></tr>
+<tr><td>Peri Peri</td><td>Rs. 1,700</td><td>Rs. 2,250</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- ADD ONS -->
+<div class="menu-cat" id="cat-addons">
+<h3 class="menu-cat-title">Add-ons</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead>
+<tbody>
+<tr><td>Dip Sauce</td><td>Rs. 100</td></tr>
+<tr><td>Special Sauce</td><td>Rs. 130</td></tr>
+<tr><td>Topping (Medium)</td><td>Rs. 150</td></tr>
+<tr><td>Topping (Large)</td><td>Rs. 250</td></tr>
+<tr><td>Topping (XL)</td><td>Rs. 350</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- CHEESY PASTA -->
+<div class="menu-cat" id="cat-pasta">
+<h3 class="menu-cat-title">Cheesy Pasta</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead><tr><th scope="col">Item</th><th scope="col">Half</th><th scope="col">Full</th></tr></thead>
+<tbody>
+<tr><td>Pizzasta Special</td><td>Rs. 500</td><td>Rs. 950</td></tr>
+<tr><td>Flaming Pasta</td><td>Rs. 400</td><td>Rs. 750</td></tr>
+<tr><td>Kababish Pasta</td><td>Rs. 450</td><td>Rs. 850</td></tr>
+<tr><td>Creamy Pasta</td><td>Rs. 400</td><td>Rs. 750</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- CHEESY FRIES -->
+<div class="menu-cat" id="cat-fries">
+<h3 class="menu-cat-title">Cheesy Fries</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead><tr><th scope="col">Item</th><th scope="col">Half</th><th scope="col">Full</th></tr></thead>
+<tbody>
+<tr><td>Plain Fries</td><td>Rs. 200</td><td>Rs. 400</td></tr>
+<tr><td>Loaded Fries</td><td>Rs. 300</td><td>Rs. 600</td></tr>
+<tr><td>Malai Boti Fries</td><td>Rs. 400</td><td>Rs. 800</td></tr>
+<tr><td>Pizza Fries</td><td>—</td><td>Rs. 850</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- CHEESY ROLLS -->
+<div class="menu-cat" id="cat-rolls">
+<h3 class="menu-cat-title">Cheesy Rolls</h3>
+<div class="table-scroll">
+<table class="menu-table">
+<thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead>
+<tbody>
+<tr><td>Spin Roll</td><td>Rs. 520</td></tr>
+<tr><td>Behari Roll</td><td>Rs. 580</td></tr>
+<tr><td>Pizzasta Roll</td><td>Rs. 630</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- DRINKS -->
+<div class="menu-cat" id="cat-drinks">
+<h3 class="menu-cat-title">Soft Drinks &amp; Mineral Water</h3>
+<div class="drinks-grid">
+<div class="table-scroll">
+<table class="menu-table">
+<thead><tr><th scope="col">Soft Drinks</th><th scope="col">Price</th></tr></thead>
+<tbody>
+<tr><td>Regular</td><td class="tbc">Contact branch for pricing</td></tr>
+<tr><td>1 Litre</td><td class="tbc">Contact branch for pricing</td></tr>
+<tr><td>1.5 Litre</td><td class="tbc">Contact branch for pricing</td></tr>
+</tbody>
+</table>
+</div>
+<div class="table-scroll">
+<table class="menu-table">
+<thead><tr><th scope="col">Mineral Water</th><th scope="col">Price</th></tr></thead>
+<tbody>
+<tr><td>Large</td><td class="tbc">Contact branch for pricing</td></tr>
+<tr><td>Regular</td><td class="tbc">Contact branch for pricing</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="drip-divider drip-gold">
+<svg preserveaspectratio="none" viewbox="0 0 1440 90"><path d="M0,0 L1440,0 L1440,40 C1380,40 1370,80 1320,80 C1270,80 1260,45 1210,45 C1160,45 1150,85 1100,85 C1050,85 1040,50 990,50 C940,50 930,90 880,90 C830,90 820,42 770,42 C720,42 710,78 660,78 C610,78 600,48 550,48 C500,48 490,82 440,82 C390,82 380,44 330,44 C280,44 270,86 220,86 C170,86 160,50 110,50 C70,50 50,70 0,55 Z"></path></svg>
+</div>
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+<div class="about-inner">
+<div class="about-visual">
+<img alt="PIZZASTA menu board showing all pizza flavours and prices" height="1131" loading="lazy" src="assets/menu/pizzasta-menu-board.jpg" width="1600"/>
+</div>
+<div class="about-copy">
+<p class="eyebrow">About Us</p>
+<h2 class="section-title">About PIZZASTA</h2>
+<p>PIZZASTA is a local pizza restaurant serving delicious pizzas, pasta, fries, and drinks in Bahria Town, Rawalpindi.</p>
+<p>We focus on quality food, friendly service, and a welcoming experience for families, students, and late-night customers.</p>
+<div class="about-tags">
+<span>Freshly Baked</span>
+<span>Family Friendly</span>
+<span>Open Till 3 AM</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ LOCATIONS ============ -->
+<section class="section locations" id="locations">
+<div class="section-head">
+<p class="eyebrow">Two branches, one taste</p>
+<h2 class="section-title">Visit Us</h2>
+<p class="section-desc">We currently serve customers from two convenient locations in Bahria Town, Rawalpindi.</p>
+</div>
+<div class="location-grid">
+<article class="location-card">
+<h3>Phase 8</h3>
+<address>
+          Plaza 113, Hub Commercial<br/>
+          Near Rainbow Mart<br/>
+          Bahria Town Phase 8<br/>
           Rawalpindi, Pakistan
         </address>
-        <p class="location-phone"><a href="tel:+923075415777">0307-5415777</a></p>
-        <div class="location-actions">
-          <a class="btn btn-primary" href="tel:+923075415777">Call Now</a>
-          <a class="btn btn-outline" href="https://share.google/Cl576q9iURpsWh1YN" target="_blank" rel="noopener">Get Directions</a>
-        </div>
-      </article>
-
-      <article class="location-card">
-        <h3>Phase 4</h3>
-        <address>
-          Plaza #178, Civic Centre<br>
-          Near Bank Islami<br>
-          Bahria Town Phase 4<br>
+<p class="location-phone"><a href="tel:+923075415777">0307-5415777</a></p>
+<div class="location-actions">
+<a class="btn btn-primary" href="tel:+923075415777">Call Now</a>
+<a class="btn btn-outline" href="https://share.google/Cl576q9iURpsWh1YN" rel="noopener" target="_blank">Get Directions</a>
+</div>
+</article>
+<article class="location-card">
+<h3>Phase 4</h3>
+<address>
+          Plaza #178, Civic Centre<br/>
+          Near Bank Islami<br/>
+          Bahria Town Phase 4<br/>
           Rawalpindi, Pakistan
         </address>
-        <p class="location-phone"><a href="tel:+923375415777">0337-5415777</a></p>
-        <div class="location-actions">
-          <a class="btn btn-primary" href="tel:+923375415777">Call Now</a>
-          <a class="btn btn-outline" href="https://share.google/PwrYXTiFjFw7WgZ4O" target="_blank" rel="noopener">Get Directions</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section class="section contact" id="contact">
-    <div class="contact-inner">
-      <div>
-        <p class="eyebrow">We'd love to hear from you</p>
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-desc">Have a question or ready to order? Call your nearest branch or visit us during opening hours.</p>
-
-        <div class="hours-card">
-          <h3>Opening Hours</h3>
-          <p>Open every day</p>
-          <p class="hours-time">3:00 PM – 3:00 AM</p>
-        </div>
-
-        <div class="social-row">
-          <a href="https://www.instagram.com/pizzastapk" target="_blank" rel="noopener" aria-label="PIZZASTA on Instagram">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+<p class="location-phone"><a href="tel:+923375415777">0337-5415777</a></p>
+<div class="location-actions">
+<a class="btn btn-primary" href="tel:+923375415777">Call Now</a>
+<a class="btn btn-outline" href="https://share.google/PwrYXTiFjFw7WgZ4O" rel="noopener" target="_blank">Get Directions</a>
+</div>
+</article>
+</div>
+</section>
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+<div class="contact-inner">
+<div>
+<p class="eyebrow">We'd love to hear from you</p>
+<h2 class="section-title">Get In Touch</h2>
+<p class="section-desc">Have a question or ready to order? Call your nearest branch or visit us during opening hours.</p>
+<div class="hours-card">
+<h3>Opening Hours</h3>
+<p>Open every day</p>
+<p class="hours-time">3:00 PM – 3:00 AM</p>
+</div>
+<div class="social-row">
+<a aria-label="PIZZASTA on Instagram" href="https://www.instagram.com/pizzastapk" rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="none" height="22" viewbox="0 0 24 24" width="22"><rect height="18" rx="5" stroke="currentColor" stroke-width="1.6" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"></circle><circle cx="17.2" cy="6.8" fill="currentColor" r="1.1"></circle></svg>
             Instagram
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61584004487258" target="_blank" rel="noopener" aria-label="PIZZASTA on Facebook">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 8.5h2.5V5.4c-.4-.05-1.8-.17-2.9-.17-2.9 0-4.6 1.7-4.6 4.7v2.5H6.4v3.4H9v8.1h3.5v-8.1h2.7l.4-3.4h-3.1V9.9c0-1 .3-1.4 1.5-1.4z" fill="currentColor"/></svg>
+<a aria-label="PIZZASTA on Facebook" href="https://www.facebook.com/profile.php?id=61584004487258" rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="none" height="22" viewbox="0 0 24 24" width="22"><path d="M14 8.5h2.5V5.4c-.4-.05-1.8-.17-2.9-.17-2.9 0-4.6 1.7-4.6 4.7v2.5H6.4v3.4H9v8.1h3.5v-8.1h2.7l.4-3.4h-3.1V9.9c0-1 .3-1.4 1.5-1.4z" fill="currentColor"></path></svg>
             Facebook
           </a>
-        </div>
-      </div>
-
-      <div class="contact-cards">
-        <div class="contact-card">
-          <h3>Phase 8</h3>
-          <a class="btn btn-primary btn-block" href="tel:+923075415777">Call 0307-5415777</a>
-        </div>
-        <div class="contact-card">
-          <h3>Phase 4</h3>
-          <a class="btn btn-primary btn-block" href="tel:+923375415777">Call 0337-5415777</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
+</div>
+</div>
+<div class="contact-cards">
+<div class="contact-card">
+<h3>Phase 8</h3>
+<a class="btn btn-primary btn-block" href="tel:+923075415777">Call 0307-5415777</a>
+</div>
+<div class="contact-card">
+<h3>Phase 4</h3>
+<a class="btn btn-primary btn-block" href="tel:+923375415777">Call 0337-5415777</a>
+</div>
+</div>
+</div>
+</section>
 </main>
-
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <img src="assets/logo/pizzasta-logo.jpg" alt="PIZZASTA logo">
-      <div>
-        <p class="footer-name">PIZZASTA</p>
-        <p class="footer-tagline">Every Bite Melts Right 🍕</p>
-      </div>
-    </div>
-
-    <div class="footer-col">
-      <h4>Opening Hours</h4>
-      <p>Open every day</p>
-      <p>3:00 PM – 3:00 AM</p>
-    </div>
-
-    <div class="footer-col">
-      <h4>Phase 8</h4>
-      <p>Plaza 113, Hub Commercial<br>Near Rainbow Mart, Bahria Town Phase 8</p>
-      <a href="tel:+923075415777">0307-5415777</a>
-    </div>
-
-    <div class="footer-col">
-      <h4>Phase 4</h4>
-      <p>Plaza #178, Civic Centre<br>Near Bank Islami, Bahria Town Phase 4</p>
-      <a href="tel:+923375415777">0337-5415777</a>
-    </div>
-
-    <div class="footer-col">
-      <h4>Follow Us</h4>
-      <a href="https://www.instagram.com/pizzastapk" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.facebook.com/profile.php?id=61584004487258" target="_blank" rel="noopener">Facebook</a>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; <span id="year"></span> PIZZASTA. All rights reserved.</p>
-  </div>
+<div class="footer-inner">
+<div class="footer-brand">
+<img alt="PIZZASTA logo" height="500" src="assets/logo/pizzasta-logo.jpg" width="500"/>
+<div>
+<p class="footer-name">PIZZASTA</p>
+<p class="footer-tagline">Every Bite Melts Right 🍕</p>
+</div>
+</div>
+<div class="footer-col">
+<h4>Opening Hours</h4>
+<p>Open every day</p>
+<p>3:00 PM – 3:00 AM</p>
+</div>
+<div class="footer-col">
+<h4>Phase 8</h4>
+<p>Plaza 113, Hub Commercial<br/>Near Rainbow Mart, Bahria Town Phase 8</p>
+<a href="tel:+923075415777">0307-5415777</a>
+</div>
+<div class="footer-col">
+<h4>Phase 4</h4>
+<p>Plaza #178, Civic Centre<br/>Near Bank Islami, Bahria Town Phase 4</p>
+<a href="tel:+923375415777">0337-5415777</a>
+</div>
+<div class="footer-col">
+<h4>Follow Us</h4>
+<a href="https://www.instagram.com/pizzastapk" rel="noopener" target="_blank">Instagram</a>
+<a href="https://www.facebook.com/profile.php?id=61584004487258" rel="noopener" target="_blank">Facebook</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© <span id="year"></span> PIZZASTA. All rights reserved.</p>
+</div>
 </footer>
-
 <script src="script.js"></script>
 </body>
 </html>
